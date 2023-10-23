@@ -1,0 +1,8 @@
+# Dependancies
+node_modules/
+
+# Generated Output
+dist/
+
+#IDE
+.idea/

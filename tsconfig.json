@@ -1,0 +1,25 @@
+{
+    "$schema": "https://raw.githubusercontent.com/TypeScriptToLua/TypeScriptToLua/master/tsconfig-schema.json",
+    "compilerOptions": {
+        "target": "ESNext",
+        "lib": [
+            "ESNext"
+        ],
+        "moduleResolution": "Node10",
+        "types": [
+            "node"
+        ],
+        "strict": true,
+        "rootDir": "./src",
+        "outDir": "./dist"
+    },
+    "tstl": {
+        "luaTarget": "5.3",
+        "buildMode": "default",
+        "luaLibImport": "inline",
+        "noImplicitSelf": true,
+        "luaPlugins": [
+            {"name": "./src/plugins/grandma2.ts"}
+        ]
+    }
+}
